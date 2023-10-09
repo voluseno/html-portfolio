@@ -1,0 +1,39 @@
+*{
+  transition: 0.4s;
+}
+header h1{
+  color: blue;
+  font-size: 2em;
+  font-weight: 100;
+  
+}
+header{
+  padding: 3em 0;
+  &:hover{
+    background: #fae2a0;
+  }
+}
+.container{
+  margin: 0 6%;
+}
+footer{
+  background: rgb(5, 130, 44);
+  color: #fff;
+  padding: 2em 1em;
+  font-size: 1.5em;
+}
+ul#menu{
+  li{
+    list-style: none;
+    display: inline;
+    a{
+      padding: 0.8em;
+      text-decoration: none;
+      //background: rgb(5, 120, 44);
+
+     &:hover{
+       background: red;
+     }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+* {
+  transition: 0.4s; }
+
+header h1 {
+  color: blue;
+  font-size: 2em;
+  font-weight: 100; }
+
+header {
+  padding: 3em 0; }
+  header:hover {
+    background: #fae2a0; }
+
+.container {
+  margin: 0 6%; }
+
+footer {
+  background: #05822c;
+  color: #fff;
+  padding: 2em 1em;
+  font-size: 1.5em; }
+
+ul#menu li {
+  list-style: none;
+  display: inline; }
+  ul#menu li a {
+    padding: 0.8em;
+    text-decoration: none; }
+    ul#menu li a:hover {
+      background: red; }
+
+/*# sourceMappingURL=style.css.map */
